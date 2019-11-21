@@ -1,5 +1,5 @@
 .google-map-height {
-  /*整頁模式，滿版到底*/
-  height: calc(100vh);
-  /*height: calc(100vh - 100px); /*光箱模式，可自動調正高度*/
+  /*web版整頁模式，滿版到底*/
+  /* height: 100vh; */
+  height: calc(100vh - 100px); /*光箱模式，可自動調正高度，在手機可看見滿版*/
 }
