@@ -4633,9 +4633,9 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
 
-hf-lightbox@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/hf-lightbox/-/hf-lightbox-1.0.5.tgz#2f3c2e8e190148c44555adf1ddbc67c69b60b123"
+hf-lightbox@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/hf-lightbox/-/hf-lightbox-1.0.6.tgz#542693d727218752e29d1fc80174def146ea090c"
   dependencies:
     "@babel/core" "^7.5.5"
     babel-cli "^6.26.0"

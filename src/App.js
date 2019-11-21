@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import GoogleMapDialog from "./GoogleMapDialog";
+import GoogleMap from "./GoogleMap";
 import ScrollableLightbox from "hf-lightbox";
 
 class App extends React.Component {
@@ -24,7 +24,12 @@ class App extends React.Component {
           title="分店位置"
           close={this.close.bind(this)}
         >
-          <GoogleMapDialog lat={"25.051216"} lng={"121.577515"} />
+          <GoogleMap
+            lat={"25.051216"}
+            lng={"121.577515"}
+            lang="en"
+            text={<span style={{ color: "red" }}>Here</span>}
+          />
         </ScrollableLightbox>
       </div>
     );
