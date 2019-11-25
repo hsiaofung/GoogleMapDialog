@@ -32,7 +32,7 @@ const AnyReactComponent = ({ text }) => (
 
 export class GoogleMap extends Component {
   render() {
-    const { lat, lng, text, lang } = this.props;
+    const { license, lat, lng, text, lang } = this.props;
     const center = {
       lat: parseFloat(lat),
       lng: parseFloat(lng)
@@ -43,7 +43,7 @@ export class GoogleMap extends Component {
       <div className="google-map-height">
         <GoogleMapReact
           bootstrapURLKeys={{
-            key: "AIzaSyDzTmj81wHIQeRK1qldxbVF035wjSiZzIU",
+            key: license,
             language: lang === "en" ? "en" : "zh-TW" /*設定語言*/
           }}
           defaultCenter={center}

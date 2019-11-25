@@ -23,8 +23,9 @@ class App extends React.Component {
           close={this.close.bind(this)}
         >
           <GoogleMap
-            lat={"25.051216"}
-            lng={"121.577515"}
+            license="AIzaSyDzTmj81wHIQeRK1qldxbVF035wjSiZzIU"
+            lat="24.956949"
+            lng="121.348861"
             lang="en"
             text={<span style={{ color: "red" }}>Here</span>}
           />
