@@ -16,6 +16,7 @@ yarn add hf-map
 
 ## API
 
+- license: Google map license。
 - lat: 經度。
 - lng: 緯度。
 - text: marker 上的文字。
@@ -53,6 +54,7 @@ class App extends React.Component {
           close={this.close.bind(this)}
         >
           <GoogleMap
+            license="/*YOUR LICNESE*/"
             lat={"25.051216"}
             lng={"121.577515"}
             lang="en"

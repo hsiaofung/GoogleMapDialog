@@ -75,6 +75,7 @@ var GoogleMap = exports.GoogleMap = function (_Component) {
     key: "render",
     value: function render() {
       var _props = this.props,
+          license = _props.license,
           lat = _props.lat,
           lng = _props.lng,
           text = _props.text,
@@ -94,7 +95,7 @@ var GoogleMap = exports.GoogleMap = function (_Component) {
             _googleMapReact2.default,
             {
               bootstrapURLKeys: {
-                key: "AIzaSyDzTmj81wHIQeRK1qldxbVF035wjSiZzIU",
+                key: license,
                 language: lang === "en" ? "en" : "zh-TW" /*設定語言*/
               },
               defaultCenter: center,
